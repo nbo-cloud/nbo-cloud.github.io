@@ -43,16 +43,7 @@ let calendar = {
     },
   },
 
-  5: {
-    audio: "Jeremy Garcia",
-    microfonos: ["Aureliano Garcia", "Alexis De la Cruz"],
-    vigilancia: ["Joaquin Arias", "Jose Miguel Urbaez"],
-    acomodadores: {
-      miercoles: ["Andres Collado", "Leandro Morales", "Pablo Garcia"],
-      domingo: ["Pablo Garcia", "Leandro Morales", "Andres Collado"],
-    },
-  },
-};
+  };
 
 let meses = {
   actual: {

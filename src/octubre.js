@@ -38,16 +38,6 @@ let calendar = {
       domingo: ["Joel Matos", "Alexis De la Cruz", "Robert Paez"],
     },
   },
-
-  5: {
-    audio: "Jonathan Suarez",
-    microfonos: ["Obed Perez", "Kevin Peña"],
-    vigilancia: ["Jorge Perez", "Javier Ortiz"],
-    acomodadores: {
-      miercoles: ["Santos Soriano", "Joaquin Arias", "Humberto De Los Santos"],
-      domingo: ["Joaquin Arias", "Joel Matos", "Santos Soriano"],
-    },
-  },
 };
 
 let meses = {
@@ -63,8 +53,8 @@ let meses = {
   },
 };
 
-let lunes = 29;
-let domingo = 5;
+let lunes = 6;
+let domingo = 12;
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("title").innerHTML += `${meses.actual.mes}`;
