@@ -1,24 +1,20 @@
 let calendar = {
   1: {
-    audio: "Robert Paez",
-    microfonos: ["Alvaro Peña", "Jose Miguel Urbaez"],
-    vigilancia: ["Alexis De La Cruz", "Joel Matos"],
-    acomodadores: {
-      miercoles: [
-        "Ricardo Aguero",
-        "Aureliano Garcia",
-        "Humberto De Los Santos",
-      ],
-      domingo: ["Daniel Marte", "Kevin Peña", "Ricardo Aguero"],
-    },
-  },
-  2: {
 	audio: "Jonathan Suarez" ,
 	microfonos: ["Jeronimo Peña", "Joan Herrera"],
 	vigilancia: ["Javier Ortiz", "Leandro Morales"],
 	acomodadores: {
 		miercoles: ["Jorge Perez", "Jeremy Garcia", "Secilio De Los Santos"],
 		domingo: ["Axel Morales", "Aureliano Garcia", "Isaac De Los Santos"],
+	}
+},
+  2: {
+	audio: "Michelle Rodriguez" ,
+	microfonos: ["Obed Perez", "Ricardo Aguero"],
+	vigilancia: ["Robert Paez", "Pablo Garcia"],
+	acomodadores: {
+		miercoles: ["Joel Matos", "Jeremy Garcia", "Daniel Marte"],
+		domingo: ["Humberto De Los Santos", "Kevin Peña", "Joel Matos"],
 	}
 },
 };
