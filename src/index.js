@@ -1,7 +1,7 @@
 let calendar = {
   1: {
 	audio: "Jonathan Suarez" ,
-	microfonos: ["Jeronimo Peña", "Joan Herrera"],
+	microfonos: ["Jeronimo Peña (no disponible)", "Joan Herrera"],
 	vigilancia: ["Javier Ortiz", "Leandro Morales"],
 	acomodadores: {
 		miercoles: ["Jorge Perez", "Jeremy Garcia", "Secilio De Los Santos"],
