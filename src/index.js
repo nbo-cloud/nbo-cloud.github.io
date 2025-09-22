@@ -1,14 +1,5 @@
 let calendar = {
   1: {
-	audio: "Jonathan Suarez" ,
-	microfonos: ["Jeronimo Peña (no disponible)", "Joan Herrera"],
-	vigilancia: ["Javier Ortiz", "Leandro Morales"],
-	acomodadores: {
-		miercoles: ["Jorge Perez", "Jeremy Garcia", "Secilio De Los Santos"],
-		domingo: ["Axel Morales", "Aureliano Garcia", "Isaac De Los Santos"],
-	}
-},
-  2: {
 	audio: "Michelle Rodriguez" ,
 	microfonos: ["Obed Perez", "Ricardo Aguero"],
 	vigilancia: ["Robert Paez", "Pablo Garcia"],
@@ -17,11 +8,20 @@ let calendar = {
 		domingo: ["Humberto De Los Santos", "Kevin Peña", "Joel Matos"],
 	}
 },
+  2: {
+	audio: "" ,
+	microfonos: ["", ""],
+	vigilancia: ["", ""],
+	acomodadores: {
+		miercoles: ["", "", ""],
+		domingo: ["", "", ""],
+	}
+},
 };
 
 let semana = {
   1: "SEMANA ACTUAL",
-  2: "SEMANA PROXIMA",
+  2: "SEMANA DE ASAMBLEA",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
