@@ -6,11 +6,11 @@ let calendar = {
     acomodadores: {
       miercoles: ["Robert Paez", "Javier Ortiz", "Alexis De la Cruz"],
       domingo: ["Joel Matos", "Alexis De la Cruz", "Robert Paez"],
-    }
+    },
 };
 
 let semana = {
-  1: "SEMANA ACTUAL"//,
+  1: "SEMANA ACTUAL",
   // 2: "SEMANA PROXIMA",
 };
 
