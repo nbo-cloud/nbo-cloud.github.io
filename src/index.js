@@ -1,5 +1,5 @@
 let calendar = {
- 1:{
+ 1: {
     audio: "Michelle Rodriguez",
     microfonos: ["Jeronimo Peña", "Jeremy Garcia"],
     vigilancia: ["Daniel Marte", "Secilio De Los Santos"],
@@ -7,11 +7,12 @@ let calendar = {
       miercoles: ["Robert Paez", "Javier Ortiz", "Alexis De la Cruz"],
       domingo: ["Joel Matos", "Alexis De la Cruz", "Robert Paez"],
     },
+  },
 };
 
 let semana = {
   1: "SEMANA ACTUAL",
-  // 2: "SEMANA PROXIMA",
+  2: "SEMANA PROXIMA",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
