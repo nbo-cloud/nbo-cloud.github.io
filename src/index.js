@@ -10,8 +10,8 @@ let calendar = {
 };
 
 let semana = {
-  1: "SEMANA ACTUAL",
-  2: "SEMANA PROXIMA",
+  1: "SEMANA ACTUAL"//,
+  // 2: "SEMANA PROXIMA",
 };
 
 document.addEventListener("DOMContentLoaded", () => {
