@@ -43,11 +43,11 @@ let calendar = {
 
 let meses = {
   actual: {
-    mes: "Diciembre",
+    mes: "DICIEMBRE",
     dias: 31,
   },
   siguiente: {
-    mes: "Enero",
+    mes: "ENERO",
     dias: 31,
   },
 };
