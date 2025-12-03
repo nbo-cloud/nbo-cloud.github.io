@@ -1,57 +1,53 @@
 let calendar = {
   1: {
-    audio: "Jorge Perez",
-    microfonos: ["Javier Ortiz", "Michelle Rodriguez"],
-    vigilancia: ["Jonathan Suarez", "Axel Morales"],
-    acomodadores: {
-      miercoles: ["Santos Soriano", "Joaquin Arias", "Isaac De Los Santos"],
-      domingo: ["Secilio De Los Santos", "Joan Herrera", "Axel Morales"],
-    },
-  },
+	audio: "Michelle Rodriguez" ,
+	microfonos: ["Jonathan Uribe", "David Marques"],
+	vigilancia: ["Boscolo Vides", "Daniel Marte"],
+	acomodadores: {
+		miercoles: ["Santos Soriano", "Alexis de la Cruz", "Aureliano Garcia"],
+		domingo: ["Axel Morales", "Pablo Garcia", "Jeremy Garcia"],
+	}
+},
 
-  2: {
-    audio: "Robert Paez",
-    microfonos: ["Alvaro Peña", "Jose Miguel Urbaez"],
-    vigilancia: ["Alexis De La Cruz", "Joel Matos"],
-    acomodadores: {
-      miercoles: [
-        "Ricardo Aguero",
-        "Aureliano Garcia",
-        "Humberto De Los Santos",
-      ],
-      domingo: ["Daniel Marte", "Kevin Peña", "Ricardo Aguero"],
-    },
-  },
+2: {
+	audio: "Jorge Perez" ,
+	microfonos: ["Obed Perez", "Jonathan Suarez"],
+	vigilancia: ["Andres Collado", "Javier Ortiz"],
+	acomodadores: {
+		miercoles: ["Isacar Rodriguez", "Joaquin Arias", "Robert Paez"],
+		domingo: ["Leandro Morales", "Kevin Peña", "Jose Urbaez"],
+	}
+},
 
-  3: {
-    audio: "Jonathan Suarez",
-    microfonos: ["Jeronimo Peña", "Joan Herrera"],
-    vigilancia: ["Javier Ortiz", "Leandro Morales"],
-    acomodadores: {
-      miercoles: ["Jorge Perez", "Jeremy Garcia", "Secilio De Los Santos"],
-      domingo: ["Axel Morales", "Aureliano Garcia", "Issac De Los Santos"],
-    },
-  },
+3: {
+	audio: "David Marques",
+	microfonos: ["Isaac De Los Santos", "Alvaro Peña"],
+	vigilancia: ["Daniel Marte", "Joel Matos"],
+	acomodadores: {
+		miercoles: ["Cecilio De Los Santos", "Jonathan Uribe", "Humberto De Los Santos"],
+		domingo: ["Boscolo Vides", "Joan Herrera", "Gedalias Lopez"],
+	}
+},
 
-  4: {
-    audio: "Michelle Rodriguez",
-    microfonos: ["Obed Perez", "Ricardo Aguero"],
-    vigilancia: ["Robert Paez", "Pablo Garcia"],
-    acomodadores: {
-      miercoles: ["Joel Matos", "Jeremy Garcia", "Daniel Marte"],
-      domingo: ["Humberto De Los Santos", "Kevin Peña", "Joel Matos"],
-    },
-  },
+4: {
+	audio: "Axel Morales",
+	microfonos: ["Alexis de la Cruz", "Jeronimo Peña"],
+	vigilancia: ["Jonathan Suarez", "Javier Ortiz"],
+	acomodadores: {
+		miercoles: ["Michelle Rodriguez", "Santos Soriano", "Jeremy Garcia"],
+		domingo: ["Andres Collado", "Ricardo Agüero", "Aureliano Garcia"],
+	}
+},
 
   };
 
 let meses = {
   actual: {
-    mes: "SEPTIEMBRE",
-    dias: 30,
+    mes: "Diciembre",
+    dias: 31,
   },
   siguiente: {
-    mes: "OCTUBRE",
+    mes: "Enero",
     dias: 31,
   },
 };
