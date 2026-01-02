@@ -1,59 +1,72 @@
 let calendar = {
-  1: {
-	audio: "Michelle Rodriguez" ,
-	microfonos: ["Jonathan Uribe", "David Marques"],
-	vigilancia: ["Boscolo Vides", "Daniel Marte"],
+1: {
+	audio: "Robert Paez",
+	microfonos: ["Boscolo Vides", "Alvaro Peña"],
+	vigilancia: ["Pablo Garcia", "Javier Ortiz"],
 	acomodadores: {
-		miercoles: ["Santos Soriano", "Alexis de la Cruz", "Aureliano Garcia"],
-		domingo: ["Axel Morales", "Pablo Garcia", "Jeremy Garcia"],
+		miercoles: ["Jonathan Uribe", "Isacar Rodriguez", "Leandro Morales"],
+		domingo: ["Joel Matos", "Kevin Peña", "Joan Herrera"],
 	}
 },
 
 2: {
-	audio: "Jorge Perez" ,
-	microfonos: ["Obed Perez", "Jonathan Suarez"],
-	vigilancia: ["Andres Collado", "Javier Ortiz"],
+	audio: "Michelle Rodriguez",
+	microfonos: ["Alvaro Peña", "Kevin Peña"],
+	vigilancia: ["Cecilio De Los Santos", "Alexis de la Cruz"],
 	acomodadores: {
-		miercoles: ["Isacar Rodriguez", "Joaquin Arias", "Robert Paez"],
-		domingo: ["Leandro Morales", "Kevin Peña", "Jose Urbaez"],
+		miercoles: ["Daniel Marte", "Jose Urbaez", "Gedalias Lope
+z"],
+		domingo: ["Joel Matos", "Joan Herrera", "Pablo Garcia"],
 	}
 },
 
 3: {
-	audio: "David Marques",
-	microfonos: ["Isaac De Los Santos", "Alvaro Peña"],
-	vigilancia: ["Daniel Marte", "Joel Matos"],
+	audio: "Javier Ortiz",
+	microfonos: ["Jeronimo Peña", "Jeremy Garcia"],
+	vigilancia: ["Jonathan Uribe", "Robert Paez"],
 	acomodadores: {
-		miercoles: ["Cecilio De Los Santos", "Jonathan Uribe", "Humberto De Los Santos"],
-		domingo: ["Boscolo Vides", "Joan Herrera", "Gedalias Lopez"],
+		miercoles: ["Humberto De Los Santos", "Isacar Rodriguez",
+ "Ricardo Agüero"],
+		domingo: ["Aureliano Garcia", "Santos Soriano", "Jonathan Suarez"],
 	}
 },
 
 4: {
-	audio: "Axel Morales",
-	microfonos: ["Alexis de la Cruz", "Jeronimo Peña"],
-	vigilancia: ["Jonathan Suarez", "Javier Ortiz"],
+	audio: "Jorge Perez",
+	microfonos: ["Obed Perez", "David Marques"],
+	vigilancia: ["Jose Urbaez", "Boscolo Vides"],
 	acomodadores: {
-		miercoles: ["Michelle Rodriguez", "Santos Soriano", "Jeremy Garcia"],
-		domingo: ["Andres Collado", "Ricardo Agüero", "Aureliano Garcia"],
+		miercoles: ["Gedalias Lopez", "Joan Herrera", "Daniel Mar
+te"],
+		domingo: ["Leandro Morales", "Kevin Peña", "Joaquin Arias"],
 	}
 },
 
+5: {
+	audio: "Robert Paez",
+	microfonos: ["Boscolo Vides", "Aureliano Garcia"],
+	vigilancia: ["Joaquin Arias", "Humberto De Los Santos"],
+	acomodadores: {
+		miercoles: ["Jonathan Uribe", "Isaac De Los Santos", "Jor
+ge Perez"],
+		domingo: ["Santos Soriano", "Isacar Rodriguez", "Jonathan Suarez"],
+	}
+},
   };
 
 let meses = {
   actual: {
-    mes: "DICIEMBRE",
+    mes: "Enero",
     dias: 31,
   },
   siguiente: {
-    mes: "ENERO",
-    dias: 31,
+    mes: "FEBRERO",
+    dias: 28,
   },
 };
 
-let lunes = 1;
-let domingo = 7;
+let lunes = 29;
+let domingo = 4;
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("title").innerHTML += `${meses.actual.mes}`;
